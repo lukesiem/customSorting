@@ -17,13 +17,12 @@ var result = students.sort(function(a,b){
     return 1;
   }
 
-  if (ageA < ageB) {
-    return -1;
-  }
   if (ageA > ageB) {
-    return 1;
+    return -1;
+  } else {
+  	return 1
   }
-	return 0;
+	
 });
 
   
